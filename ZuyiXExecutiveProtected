@@ -1,0 +1,74 @@
+local players = game:GetService("Players")
+local player = players.LocalPlayer
+local teams = game:GetService("Teams")
+local replicatedStorage = game:GetService("ReplicatedStorage")
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PresidentZuyi/S/refs/heads/main/C"))()
+
+MakeWindow({
+  Hub = {
+    Title = "President Zuyi | Gojo Style🔥🩵",
+    Animation = "Made By ZuyiGoat🐐"
+  },
+  Key = {
+    KeySystem = true,
+    Title = "Exeuctive X Zuyi Gojo Style",
+    Description = "^ President Zuyi Blue Lock Rivals ^",
+    KeyLink = "https://discord.gg/tywV87Z3",
+    Keys = {"OWNERSKEY1", "zuyi1", "PresidentZuyi", "zuyixexecutive", "zuyi"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied Discord Link"
+    }
+  }
+})
+
+MinimizeButton({
+  Image = "rbxassetid://7683701966",
+  Size = {60, 60},
+  Color = Color3.fromRGB(10, 10, 10),
+  Corner = true,
+  Stroke = true,
+  StrokeColor = Color3.fromHSV(0.5, 1, 1)  -- Hue: 180° for cyan
+})
+
+MakeNotifi({
+  Title = "PresidentZuyi | BLUE LOCK",
+  Text = "Is This Okay? - Loki⚡️😭",
+  Time = 5
+})
+
+local Main = MakeTab({Name = "INFO"})
+
+local Image = AddImageLabel(Main, {
+  Name = "PresidentZuyi🔗",
+  Image = "rbxassetid://18294689830"
+})
+local Paragraph1 = AddParagraph(Main, {"Gojo Style Made By PresidentZuyi🔥", "CREDIT"})
+local Paragraph2 = AddParagraph(Main, {"Cen you better add this to your hub🤓", "INFO"})
+local Paragraph3 = AddParagraph(Main, {"PresidentZuyi"})
+local Paragraph4 = AddParagraph(Main, {"PresidentZuyi Is The Owner Of This Script"})
+
+-- Auto
+local Main = MakeTab({Name = "MAIN"})
+
+AddButton(Main, { 
+  Name = "Get Gojo Satoru Style", 
+  Description = "Why’d u click it ts pmo☠️!", 
+  Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/PresidentZuyi/H/refs/heads/main/B'))()
+  end
+})
+
+local Read = MakeTab({Name = "READ"})
+
+local Image = AddImageLabel(Read, {
+  Name = "PresidentZuyi🔗",
+  Image = "rbxassetid://7683701966"
+})
+
+local Paragraph1 = AddParagraph(Read, {"This Script Is Made By PresidentZuyi", "CREDIT"})
+local Paragraph2 = AddParagraph(Read, {"Thank You Executive For Giving Me This Opportunity To Become A Developer In Your Server✅", "INFO"})
+local Paragraph3 = AddParagraph(Read, {"Cen you better add this script to your hub🤓"})
+local Paragraph4 = AddParagraph(Read, {"Thank You Executive For Giving Me An Opportunity To Be A Developer In Your Server!✅"})
