@@ -14,12 +14,12 @@ MakeWindow({
     Title = "PresidentZuyi Custom Styles (Verified✅)",
     Description = "^ President Zuyi ^",
     KeyLink = "https://link-hub.net/1288118/blue-lock-rivals",
-    Keys = {"zuyihello", "71838", "28282", "728292", "28282"},
+    Keys = {"president1000", "71838", "28282", "728292", "28282"},
     Notifi = {
       Notifications = true,
       CorrectKey = "Running the Script...",
       Incorrectkey = "The key is incorrect",
-      CopyKeyLink = "Copied Discord Link"
+      CopyKeyLink = "Copied Linkvertise Link"
     }
   }
 })
