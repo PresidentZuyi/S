@@ -1,0 +1,20 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Loki Style By Zuyi",
+    Text = "Em Is This Okay?⚡️",
+    Button1 = "Thank U Zuyi",
+    Button2 = "⚡️",
+    Duration = 3
+})
+
+local player = game:GetService("Players").LocalPlayer
+local st = player.PlayerGui.Style.BG.StyleTxt
+local Slot = player.PlayerGui.Style.BG.Slots.ScrollingFrame.Slot1.Text
+local des = player.PlayerGui.Style.BG.Desc
+
+while wait() do
+    st.Text = "Loki"
+    st.TextColor3 = Color3.fromRGB(4, 2, 115)
+    Slot.Text = "Loki"
+    Slot.TextColor3 = Color3.fromRGB(4, 2, 115)
+    des.Text = "The Fastest Runner In Blue Lock And Part Of The New Gen 11, This Guy Truly Is A Monster."
+end
