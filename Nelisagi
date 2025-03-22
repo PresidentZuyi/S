@@ -1,0 +1,76 @@
+local players = game:GetService("Players")
+local player = players.LocalPlayer
+local teams = game:GetService("Teams")
+local replicatedStorage = game:GetService("ReplicatedStorage")
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PresidentZuyi/F/refs/heads/main/S"))()
+
+MakeWindow({
+  Hub = {
+    Title = "President Zuyi | Blue Lock",
+    Animation = "Made By Zuyi!"
+  },
+  Key = {
+    KeySystem = true,
+    Title = "GET NEL ISAGI SCRIPT🔥",
+    Description = "^ NEL ISAGI ANY STYLE",
+    KeyLink = "https://discord.gg/Hd6bJMHS",
+    Keys = {"OWNERSKEY1", "zuyi1", "PresidentZuyi", "zuyixexecutive", "zuyi"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied Discord Link"
+    }
+  }
+})
+
+MinimizeButton({
+  Image = "rbxassetid://7229442422",
+  Size = {40, 40},
+  Color = Color3.fromRGB(10, 10, 10),
+  Corner = true,
+  Stroke = true,
+  StrokeColor = Color3.fromHSV(0.5, 1, 1)  -- Hue: 180° for cyan
+})
+
+MakeNotifi({
+  Title = "PresidentZuyi | BLUE LOCK",
+  Text = "Is This Okay? - Loki⚡️😭",
+  Time = 5
+})
+
+local MainTab1 = MakeTab({Name = "INFO"})
+
+local Image1 = AddImageLabel(MainTab1, {
+  Name = "PresidentZuyi🔗",
+  Image = "rbxassetid://7229442422"
+})
+local Paragraph1 = AddParagraph(MainTab1, {"Gojo Style Made By PresidentZuyi🔥", "CREDIT"})
+local Paragraph2 = AddParagraph(MainTab1, {"Cen you better add this to you’re hub🤓", "INFO"})
+local Paragraph3 = AddParagraph(MainTab1, {"PresidentZuyi"})
+local Paragraph4 = AddParagraph(MainTab1, {"PresidentZuyi Is The Owner Of This Script"})
+
+local MainTab2 = MakeTab({Name = "MAIN"})
+
+AddButton(MainTab2, { 
+  Name = "Get Gojo Satoru Style", 
+  Description = "Why’d u click it ts pmo☠️!", 
+  Callback = function()
+    while true do
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/PresidentZuyi/S/refs/heads/main/GojoSatoru'))()
+      wait(1) -- Added a wait time of 1 second to prevent potential infinite loop issues
+    end
+  end
+})
+
+local ReadTab = MakeTab({Name = "READ"})
+
+local Image2 = AddImageLabel(ReadTab, {
+  Name = "PresidentZuyi🔗",
+  Image = "rbxassetid://7229442422"
+})
+
+local Paragraph5 = AddParagraph(ReadTab, {"This Script Is Made By PresidentZuyi", "CREDIT"})
+local Paragraph6 = AddParagraph(ReadTab, {"Thank You Executive For Giving Me This Opportunity To Become A Developer In Ur Server✅", "INFO"})
+local Paragraph7 = AddParagraph(ReadTab, {"Cen you better add this script to your hub🤓"})
+local Paragraph8 = AddParagraph(ReadTab, {"Thank You Executive For Giving Me An Opportunity To Be A Developer In Ur Server!✅"})
