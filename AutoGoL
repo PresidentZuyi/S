@@ -12,7 +12,7 @@ MakeWindow({
     Key = {
         KeySystem = true,
         Title = "Auto Win Script",
-        Description = "^ President Zuyi Blue Lock Rivals ^",
+        Description = "^ Auto Goal Blue Lock Rivals ^",
         KeyLink = "https://discord.gg/TAFQb2QvaM",
         Keys = {"OWNERSKEY1", "zuyi1", "PresidentZuyi", "zuyixexecutive", "zuyi"},
         Notifi = {
