@@ -1,0 +1,96 @@
+local players = game:GetService("Players")
+local player = players.LocalPlayer
+local teams = game:GetService("Teams")
+local replicatedStorage = game:GetService("ReplicatedStorage")
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PresidentZuyi/S/refs/heads/main/C"))()
+
+MakeWindow({
+  Hub = {
+    Title = "Micheal Kaiser Early Access!💫",
+    Animation = "Kaiser Impact!🔥"
+  },
+  Key = {
+    KeySystem = true,
+    Title = "Kaiser Developer Unrealased!😳",
+    Description = "Get Kaiser He Before Comes Out!✅",
+    KeyLink = "https://discord.gg/TAFQb2QvaM",
+    Keys = {"Kaiser", "kaiser", "28282", "Kaiser", "28282"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Magnus!✅",
+      Incorrectkey = "Benchus!⛔️",
+      CopyKeyLink = "Copied Discord Link"
+    }
+  }
+})
+
+MinimizeButton({
+  Image = "rbxassetid://103775574267750",
+  Size = {40, 40},
+  Color = Color3.fromRGB(10, 10, 10),
+  Corner = true,
+  Stroke = true,
+  StrokeColor = Color3.fromHSV(0.5, 1, 1)  -- Hue: 180° for cyan
+})
+
+MakeNotifi({
+  Title = "Executed!",
+  Text = "Enjoy Kaiser!✅",
+  Time = 5
+})
+
+local Main = MakeTab({Name = "Hello!"})
+
+local Image = AddImageLabel(Main, {
+  Name = "PresidentZuyi🔗",
+  Image = "rbxassetid://103775574267750"
+})
+local Paragraph1 = AddParagraph(Main, {"Get Kaiser Before He Comes Out!", "CREDIT"})
+local Paragraph2 = AddParagraph(Main, {"More Games Getting Supported Soon", "INFO"})
+local Paragraph3 = AddParagraph(Main, {"Micheal Kaiser Early Access’"})
+local Paragraph4 = AddParagraph(Main, {"PresidentZuyi Is The Owner Of This Script"})
+
+-- Auto
+local Main = MakeTab({Name = "Micheal Kaiser"})
+
+AddButton(Main, { 
+  Name = "Get Micheal Kaiser (Early)⚡️", 
+  Description = "Why’d u click it ts pmo☠️!", 
+  Callback = function()
+     game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Join PresidentZuyi Hub For Updates!",
+    Text = "Made By PresidentZuyi",
+    Button1 = "W Zuyi!",
+    Button2 = "W Zuyi!",
+    Duration = 90
+})
+
+local player = game:GetService("Players").LocalPlayer
+local st = player.PlayerGui.Style.BG.StyleTxt
+local Slot = player.PlayerGui.Style.BG.Slots.ScrollingFrame.Slot1.Text
+local des = player.PlayerGui.Style.BG.Desc
+
+while wait() do
+    st.Text = "Micheal Kaiser"
+    st.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Slot.Text = "Micheal Kaiser"
+    Slot.TextColor3 = Color3.fromRGB(255, 255, 255)
+    des.Text = "Gods Chosen Emperor (Dev Accessed)"
+end
+  end
+}) 
+
+AddButton(Main, {
+  Name = "Status - Working ✅",
+  Callback = function()
+    local function runScript(url)
+      loadstring(game:HttpGet(url))()
+    end
+    
+    local co1 = coroutine.create(runScript)
+    local co2 = coroutine.create(runScript)
+    
+    coroutine.resume(co1, "https://raw.githubusercontent.com/PresidentZuyi/Shh/refs/heads/main/C")
+    coroutine.resume(co2, "https://raw.githubusercontent.com/PresidentZuyi/Shh/refs/heads/main/F")
+  end
+})
