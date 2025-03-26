@@ -13,7 +13,7 @@ MakeWindow({
     KeySystem = true,
     Title = "Kaiser Developer Unrealased!😳",
     Description = "Get Kaiser He Before Comes Out!✅",
-    KeyLink = "https://discord.gg/TAFQb2QvaM",
+    KeyLink = "https://discord.gg/72q5yvpfEJ",
     Keys = {"Kaiser", "kaiser", "28282", "Kaiser", "28282"},
     Notifi = {
       Notifications = true,
