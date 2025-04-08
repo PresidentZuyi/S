@@ -248,7 +248,7 @@ function MakeWindow(Configs)
     })
     
     local ConfirmButton = Create("TextButton", KeyMenu, {
-      Text = "Confirm",
+      Text = "Redeem Key",
       Font = Configs_HUB.Text_Font,
       TextSize = 20,
       TextColor3 = Configs_HUB.Cor_Text,
@@ -259,7 +259,7 @@ function MakeWindow(Configs)
     })Corner(ConfirmButton)
     
     local GetKeyLink = Create("TextButton", KeyMenu, {
-      Text = "Join Group To Get Access",
+      Text = "Get Key (Click)",
       Font = Configs_HUB.Text_Font,
       TextSize = 20,
       TextColor3 = Configs_HUB.Cor_Text,
